@@ -1,0 +1,37 @@
+{
+    "add_is_visible": true,
+    "can_fit_height": false,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 50,
+        "width": 250
+    },
+    "display": "Text animation",
+    "fields": {
+        "AAD": {
+            "caption": "Star size",
+            "default_val": 16,
+            "doc": "Main star icon size in pixels.",
+            "editor": "DynamicValue",
+            "name": "star_size",
+            "rank": 0,
+            "value": "number"
+        },
+        "AAH": {
+            "caption": "Text",
+            "default_val": "Generating",
+            "doc": "Text shown next to the animated star icon. Accepts dynamic values.",
+            "editor": "DynamicValue",
+            "name": "text",
+            "rank": 1,
+            "value": "text"
+        }
+    },
+    "icon": "ion-android-star",
+    "platform_type": "web",
+    "property_applications": {
+        "Font": true,
+        "MinWidth": true,
+        "resizable": true
+    }
+}
